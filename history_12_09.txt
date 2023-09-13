@@ -1,0 +1,50 @@
+   0 cd /home/
+   1 mkdir /animals
+   2 ls
+   3 ls -a
+   4 ls -al
+   5 tree
+   6 mkdir /home/animals
+   7 ls
+   8 mkdir /home/animals/dogs
+   9 mkdir /home/animals/cats
+  10 mkdir /home/animals/fish
+  11 tree
+  12 touch /home/animals/cats/garfield.txt
+  13 touch /home/animals/fish/nemo.txt
+  14 tree
+  15 touch /home/tmp/adam.txt
+  16 tree
+  17 tree tmp
+  18 tree /home/tmp
+  19 ls tmp
+  20 mkdir /home/humans
+  21 tree
+  22 touch /tmp/adam.txt
+  23 ls
+  24 tree tmp
+  25 tre /home/tmp
+  26 tree /tmp
+  27 cp /tmp/adam.txt home/humans
+  28 cp /tmp/adam.txt  /humans/adam.txt
+  29 cp root/tmp/adam.txt  home/humans/adam.txt
+  30 tree
+  31 tree /tmp
+  32 cp  /tmp/adam.txt /home/humans/
+  33 ls
+  34 tree
+  35 touch /tmp/evA.txt
+  36 ls
+  37 ls tmp
+  38 tree /tmp
+  39 mv /tmp/evA.txt /opt/eve.txt
+  40 tree /tmp
+  41 tree /home/
+  42 tree /opt
+  43 mv /opt/eve.txt /home/humans/
+  44 tree
+  45 history
+  46 history > history_12_09
+  47 export history_12-09
+  48 export_file /tmp/history_12_09.txt
+  49 history > history_12_09.txt
